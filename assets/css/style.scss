@@ -1,0 +1,189 @@
+.container {
+  width: 95%;
+  max-width: 1920px; }
+
+#toast-container {
+  top: 10%;
+  right: unset;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 86%; }
+
+body {
+  position: relative; }
+  body::after {
+    position: absolute;
+    content: '';
+    background-color: #cfd8dc ;
+    right: 0;
+    top: 0;
+    width: 25%;
+    min-height: 1000px;
+    height: 100%;
+    z-index: -999; }
+
+.round-badge {
+  background-color: #00e676 ;
+  border-radius: 6px;
+  width: 10px;
+  height: 3px;
+  padding: 5px;
+  position: relative;
+  right: -4px; }
+
+main {
+  min-height: 800px;
+  padding: 35px 0;
+  position: relative; }
+  main section > h4 {
+    margin-bottom: 50px;
+    border-bottom: 2px solid #2e7d32;
+    max-width: 45%;
+    color: #1b5e20 ; }
+  main section article {
+    padding-bottom: 30px; }
+
+.secondary-nav {
+  height: 35px; }
+  .secondary-nav strong {
+    padding: 7px 10px;
+    position: relative; }
+  .secondary-nav .icon {
+    position: absolute;
+    left: -18px;
+    top: 5px; }
+
+.page-footer {
+  margin-top: 30px; }
+
+#home .card-image {
+  margin-top: 50px; }
+  #home .card-image .activator {
+    height: 270px;
+    width: 100%;
+    background: url("/assets/images/members_card.jpg") no-repeat center/cover; }
+  #home .card-image.map .activator {
+    background-image: url("/assets/images/map_card.jpg"); }
+  #home .card-image.contact .activator {
+    background-image: url("/assets/images/contact_card.jpg"); }
+
+#login .registration-form, #registration .registration-form {
+  background-color: #fff;
+  padding: 30px; }
+#login .registration-form-wrapper, #registration .registration-form-wrapper {
+  margin: 20px auto;
+  max-width: 424px;
+  padding: 6px 5px 15px;
+  background-color: #32503324;
+  border-radius: 5px; }
+
+#gallery .upload-images {
+  margin-bottom: 20px; }
+#gallery .gallery-section {
+  margin-bottom: 40px; }
+#gallery .gallery-img {
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#contact-messages .card-panel {
+  position: relative; }
+  #contact-messages .card-panel .material-icons {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    pointer-events: none; }
+  #contact-messages .card-panel h5 {
+    margin: 0 0 20px; }
+
+/*# sourceMappingURL=style.css.map */
+.btn.social > :first-child,
+.btn-large.social > :first-child,
+.col.social > :first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.btn.social,
+.btn-large.social,
+.col.social {
+  padding: 0 2rem 0 0;
+}
+.btn.social i,
+.btn-large.social i,
+.col.social i {
+  padding: 0 1rem;
+  margin-right: 1rem;
+}
+.btn.social-icon,
+.btn-large.social-icon,
+.col.social-icon {
+  padding: 0;
+}
+.btn.social-icon i,
+.btn-large.social-icon i,
+.col.social-icon i {
+  padding: 0 1rem;
+  margin-right: 0;
+}
+.btn-large.social-icon {
+  padding: 0 1rem;
+}
+.col.social {
+  width: 100%;
+  text-align: left;
+}
+.col.social i.fa-fw {
+  width: 3.2rem;
+}
+.facebook {
+  background-color: #3b5998;
+  color: #fff !important;
+}
+.facebook i {
+  color: #fff !important;
+}
+.facebook:hover {
+  background-color: #4c70ba !important;
+}
+.github {
+  background-color: #444444;
+  color: #fff !important;
+}
+.github i {
+  color: #fff !important;
+}
+.github:hover {
+  background-color: #5e5e5e !important;
+}
+.instagram {
+  background-color: #3f729b;
+  color: #fff !important;
+}
+.instagram i {
+  color: #fff !important;
+}
+.instagram:hover {
+  background-color: #548cb9 !important;
+}
+.twitter {
+  background-color: #55acee;
+  color: #fff !important;
+}
+.twitter i {
+  color: #fff !important;
+}
+.twitter:hover {
+  background-color: #83c3f3 !important;
+}
+.youtube {
+  background-color: #dd4b39;
+  color: #fff !important;
+}
+.youtube i {
+  color: #fff !important;
+}
+.youtube:hover {
+  background-color: #e47365 !important;
+}
