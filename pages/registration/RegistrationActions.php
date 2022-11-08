@@ -13,11 +13,8 @@ class RegistrationActions {
             ':email' => $_POST['email'],
             ':password' => $_POST['password']
         ));
-		 if ($_POST['email'] == $user['email'] ) {
-            FrontController::alert('Duplicated mail', 'error');
-        } else {
-            $stmt->execute($fields);
-            FrontController::alert('Successful registration', 'success');
-			FrontController::show('registration/index');
+
+        FrontController::alert('Registration successful', 'success');
+        FrontController::show('registration/index');
     }
 }
