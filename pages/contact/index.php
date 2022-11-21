@@ -65,6 +65,26 @@ $countMessages = $stmt->rowCount();
 			    <p>&nbsp;</p>
             <p>&nbsp;</p>
         </div>
+        <div class="entry-content">
+            <p>Get In Touch</p>
+            <ul>
+                <li><strong>Address: 2750 Nagykőrös, Fáskert utca 1.</strong></li>
+                <li><strong>Mobile: 208045891</strong></li>
+                <li><strong><a href="mailto:dionigi207@freemail.hu">E-mail: dionigi207@freemail.hu</a></strong></li>
+            </ul>
+			<h5><strong>My YouTube Channel: <b>@dionigi207</b></strong></h5>
+            <a href="https://www.youtube.com/@dionigi207" target="_blank">
+				<p><img class="alignnone size-medium wp-image-335" src="/assets/images/youtube_card.gif" alt="Channel" max-width="200" height="auto" sizes="(max-width: 650px) 100vw, 300px"><br>
+			</a>
+			<h5><strong>My GitHub Channel: <b>schillerviktor</b></strong></h5>
+			<a href="https://github.com/dionigihun/" target="_blank">
+				<p><img class="alignnone size-medium wp-image-335" src="/assets/images/github_card.gif" alt="Channel" max-width="400" height="220" sizes="(max-width: 650px) 100vw, 300px"><br>
+				</p>
+			</a>
+                <p>&nbsp;</p>
+			    <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
     </article>
 </section>
 
