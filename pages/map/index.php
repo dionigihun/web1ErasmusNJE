@@ -4,7 +4,7 @@
     <h4>Map</h4>
     <article>
         <div class="entry-content">
-            <p>You can find us the following places:</p>
+            <p>You can find us on the following places:</p>
             <p>Viktor</p>
             <p>
 				<div class="map-responsive">
