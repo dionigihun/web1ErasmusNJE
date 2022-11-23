@@ -6,5 +6,5 @@ require_once "Database.php";
 
 /**
  * Initialize dispatcher
- */
+ **/
 FrontController::createInstance()->dispatch();
