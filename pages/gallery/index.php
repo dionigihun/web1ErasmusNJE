@@ -48,7 +48,7 @@ $logged_in = FrontController::is_logged_in();
             </div>
         </article>
         <article class="col m12 gallery-section">
-            <h4>YouTube video:</h4>
+            <h4>Embedded Youtube video:</h4>
 			<div class="responsive-video">
 				<iframe max width="560" height="315" src="https://www.youtube.com/embed/3ZX53TiGiCE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>

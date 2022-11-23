@@ -76,7 +76,7 @@ $countMessages = $stmt->rowCount();
             <a href="https://www.youtube.com/@dionigi207" target="_blank">
 				<p><img class="alignnone size-medium wp-image-335" src="/assets/images/youtube_card.gif" alt="Channel" max-width="200" height="auto" sizes="(max-width: 650px) 100vw, 300px"><br>
 			</a>
-			<h5><strong>My GitHub Channel: <b>schillerviktor</b></strong></h5>
+			<h5><strong>My GitHub Channel: <b>@schillerviktor</b></strong></h5>
 			<a href="https://github.com/dionigihun/" target="_blank">
 				<p><img class="alignnone size-medium wp-image-335" src="/assets/images/github_card.gif" alt="Channel" max-width="400" height="220" sizes="(max-width: 650px) 100vw, 300px"><br>
 				</p>
